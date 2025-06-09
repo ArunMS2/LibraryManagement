@@ -12,3 +12,4 @@ C:\Users\u499346\VScode Work\LibraryManagement\obj\Debug\net9.0\refint\LibraryMa
 C:\Users\u499346\VScode Work\LibraryManagement\obj\Debug\net9.0\LibraryManagement.pdb
 C:\Users\u499346\VScode Work\LibraryManagement\obj\Debug\net9.0\LibraryManagement.genruntimeconfig.cache
 C:\Users\u499346\VScode Work\LibraryManagement\obj\Debug\net9.0\ref\LibraryManagement.dll
+C:\Users\u499346\VScode Work\LibraryManagement\obj\Debug\net9.0\LibraryManagement.sourcelink.json
