@@ -11,3 +11,5 @@ b1.Showinfo();
 Magazine M1 = new Magazine(123, "Cassanda", 124);
 M1.Showinfo();
 // b2.DisplayDetails();
+FineCalculator f1 = new FineCalculator();
+f1.CalculateFine(1);
