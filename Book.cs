@@ -15,7 +15,15 @@ public class Book:Libraryitem
     public Book(string title, string author, string isbn) {
         Title = title;
         Author = author;
+        if (isbn.Length != 16)
+        {
+            throw new InvalidBookException("ISBN shoulb be 16 digit");
+        }
+        else
+        {
         ISBN = isbn;
+            
+        }
         
     }
     public Book(){}

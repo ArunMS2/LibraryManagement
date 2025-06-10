@@ -19,20 +19,20 @@ public class FineCalculator
         // return Days;
     }
     
-    public string CalculateFine(int days, double finerate,string type)
-    {
+    // public string CalculateFine(int days, double finerate,string type)
+    // {
         
-        switch (type)
-        {
-            case "student":
-                Console.WriteLine(days*0.5);
-                break;
-            // case "Teacher":
-            //     Console.WriteLine("Option 2 selected");
-            //     break;
-        }
+    //     switch (type)
+    //     {
+    //         case "student":
+    //             Console.WriteLine(days*0.5);
+    //             break;
+    //         // case "Teacher":
+    //         //     Console.WriteLine("Option 2 selected");
+    //         //     break;
+    //     }
     
 }
 
-    }
+    
    
