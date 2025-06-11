@@ -2,17 +2,23 @@ namespace LibraryManagement;
 
 public class Book:Libraryitem
 {
+    
+
+
     // public string Title { get; set; }
     public string Author { get; set; }
     public string ISBN { get; set; }
 
-    public Book(string title, string author):base(title)
-    {
-        Title=title;
-        Author=author;
-    }
+    // public Book(string title, string author, string isbn) : base(title, author, isbn)
+    // {
+    //     Title = title;
+    //     Author = author;
+    //     ISBN = isbn;
+    // }
 
-    public Book(string title, string author, string isbn) {
+    public Book(int id,string title, string author, string isbn):base(id,title,author)
+     {
+        Id = id;
         Title = title;
         Author = author;
         if (isbn.Length != 16)
@@ -27,7 +33,7 @@ public class Book:Libraryitem
         
     }
     public Book(){}
-    
+
 
     public void DisplayDetails()
     {

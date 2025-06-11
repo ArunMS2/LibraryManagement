@@ -2,11 +2,12 @@ namespace LibraryManagement;
 
 public class Magazine : Libraryitem
 {
+    public int ID;
     public int IssueNumber { get; set; }
 
     public Magazine(int id,string title,int issueNumber)
     {
-        id = id;
+        Id = id;
         Title = title;
         IssueNumber = issueNumber;
     }
